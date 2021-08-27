@@ -2,11 +2,6 @@
 
 var numero = parseInt(prompt("Inserisci un numero pari"));
 
-while ( !isNaN(numero)) {
-
-numero = parseInt(prompt("Inserisci un numero pari"));
-
-}
 
 if (numero % 2 == 0) {
     
