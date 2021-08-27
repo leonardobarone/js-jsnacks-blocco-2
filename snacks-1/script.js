@@ -18,16 +18,27 @@
 // Esegui questo programma in due versioni, con il for e con il while.
 
 var i = 1;
-var array2 = [];
+var somma2 = 0;
 
 while (i < 6) {
 
     var numero = parseInt(prompt("dammi un numero!"));
-    array2.push(numero);
+
+    somma2 += numero;
 
     i++
 }
 
-arrayTot2 = array2.reduce((a, b) => a + b, 0)
+console.log(somma2);
 
-console.log(arrayTot2);
+
+
+// SOLUZIONE
+
+// var somma = 0;
+// somma = somma + numero;
+// console.log(somma);
+
+// while ( isNaN(numero) ) {
+//     numero = parseInt(prompt("Attento! Devi inserire un numero!!!"));
+// }
