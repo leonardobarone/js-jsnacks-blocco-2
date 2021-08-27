@@ -28,7 +28,10 @@ let listaInvitati = [];
 
 for (var i = 0; i < 3; i++) {
 
-    console.log(`${(nomi[Math.floor(Math.random()*nomi.length)])} ${(cognomi[Math.floor(Math.random()*cognomi.length)])}`)
+    var nomeCasuale = Math.floor(Math.random()*nomi.length)
+    var cognomeCasuale = Math.floor(Math.random()*nomi.length)
+
+    console.log(`${(nomi[nomeCasuale])} ${(cognomi[cognomeCasuale])}`)
 
 }
 
