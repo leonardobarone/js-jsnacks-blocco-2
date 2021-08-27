@@ -28,7 +28,7 @@ let listaInvitati = [];
 
 for (var i = 0; i < 3; i++) {
 
-    console.log(`${(nomi[Math.floor(Math.random()*nomi.length)])} ${(nomi[Math.floor(Math.random()*cognomi.length)])}`)
+    console.log(`${(nomi[Math.floor(Math.random()*nomi.length)])} ${(cognomi[Math.floor(Math.random()*cognomi.length)])}`)
 
 }
 
