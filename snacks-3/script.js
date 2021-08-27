@@ -9,7 +9,14 @@ var nomi = [
     "Giuseppe",
     "Carmine",
     "Vincenzo",
-    "Giovanna"
+    "Giovanna",
+    "Francesco",
+    "Matteo",
+    "Salvatore",
+    "Riccardo",
+    "Aldo",
+    "Giovanni",
+    "Giacomo"
 ];
 
 
@@ -21,7 +28,12 @@ var cognomi = [
     "Rossi",
     "Trapanese",
     "Potere",
-    "Fumagalli"
+    "Fumagalli",
+    "De Sanctis",
+    "Madrigali",
+    "Storti",
+    "Baglio",
+    "Poretti"
 ];
 
 let listaInvitati = [];
@@ -29,7 +41,7 @@ let listaInvitati = [];
 for (var i = 0; i < 3; i++) {
 
     var nomeCasuale = Math.floor(Math.random()*nomi.length)
-    var cognomeCasuale = Math.floor(Math.random()*nomi.length)
+    var cognomeCasuale = Math.floor(Math.random()*cognomi.length)
 
     console.log(`${(nomi[nomeCasuale])} ${(cognomi[cognomeCasuale])}`)
 
